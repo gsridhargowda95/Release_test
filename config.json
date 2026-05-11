@@ -1,0 +1,18 @@
+{
+    "jenkins": {
+        "job_name": "order-ui-build",
+        "branch": "main",
+        "git_repo": "https://github.com/my-org/demo-repo.git",
+
+        "parameters": {
+            "APPLICATION_NAME": "Order UI",
+            "APPLICATION_ID": "1001",
+            "ENVIRONMENT": "DEV",
+            "VERSION": "1.0.0",
+            "BUILD_NUMBER": "125",
+            "DEPLOYMENT_TYPE": "Rolling",
+            "RUN_TESTS": "true",
+            "ENABLE_CACHE": "true"
+        }
+    }
+}

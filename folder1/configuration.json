@@ -1,0 +1,29 @@
+{
+    "applicationName": "Order UI",
+    "applicationId": "1001",
+    "environment": "DEV",
+    "version": "1.0.0",
+    "buildNumber": "125",
+
+    "database": {
+        "host": "dev-db.company.com",
+        "port": 5432,
+        "schema": "orders"
+    },
+
+    "servers": [
+        {
+            "name": "app-server-1",
+            "ip": "10.10.1.11"
+        },
+        {
+            "name": "app-server-2",
+            "ip": "10.10.1.12"
+        }
+    ],
+
+    "features": {
+        "enableCache": true,
+        "enableAudit": false
+    }
+}

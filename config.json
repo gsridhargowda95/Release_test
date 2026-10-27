@@ -12,7 +12,7 @@
             "BUILD_NUMBER": "125",
             "DEPLOYMENT_TYPE": "Rolling",
             "RUN_TESTS": "true",
-            "ENABLE_CACHE": "true"
+            "ENABLE_CACHE": "false"
         }
     }
 }
